@@ -23,4 +23,11 @@ public class  TestGachamiga {
         String result = test.obtenerGachamiga(15);
         Assertions.assertEquals("Gachamiga", result);
     }
+
+    @Test
+    public void TestNoMultiplo3Y5(){
+        Gachamiguero2 test = new Gachamiguero2();
+        String result = test.obtenerGachamiga(2);
+        Assertions.assertEquals("2", result);
+    }
 }
