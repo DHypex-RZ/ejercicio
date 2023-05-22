@@ -99,4 +99,10 @@ public class TestGachamiga1 {
         String result = test.obtenerGachamiga(14);
         Assertions.assertEquals("14", result);
     }
+
+    @Test
+    public void testFor15(){
+        String result = GachamigueroV2.cocinarGachamiga(15);
+        Assertions.assertEquals("Gachamiga", result);
+    }
 }
