@@ -20,4 +20,9 @@ public class TestGachamiga {
         Assertions.assertEquals("Gachamiga", result);
     }
 
+    @Test
+    public void TestNoMultiplo3Y5(){
+        String result = GachamigueroV2.cocinarGachamiga(2);
+        Assertions.assertEquals("2", result);
+    }
 }
