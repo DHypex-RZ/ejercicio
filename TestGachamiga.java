@@ -14,4 +14,10 @@ public class TestGachamiga {
         String result = GachamigueroV2.cocinarGachamiga(5);
         Assertions.assertEquals("Miga", result);
     }
+    @Test
+    public void TestMultiplo15(){
+        String result = GachamigueroV2.cocinarGachamiga(15);
+        Assertions.assertEquals("Gachamiga", result);
+    }
+
 }
