@@ -30,4 +30,11 @@ public class TestGachamiga1 {
         String result = test.obtenerGachamiga(4);
         Assertions.assertEquals("4", result);
     }
+
+    @Test
+    public void testFor5(){
+        Gachamiguero2 test = new Gachamiguero2();
+        String result = test.obtenerGachamiga(5);
+        Assertions.assertEquals("Miga", result);
+    }
 }
