@@ -44,4 +44,18 @@ public class TestGachamiga1 {
         String result = test.obtenerGachamiga(6);
         Assertions.assertEquals("Gacha", result);
     }
+
+    @Test
+    public void testFor7(){
+        Gachamiguero2 test = new Gachamiguero2();
+        String result = test.obtenerGachamiga(7);
+        Assertions.assertEquals("7", result);
+    }
+
+    @Test
+    public void testFor8(){
+        Gachamiguero2 test = new Gachamiguero2();
+        String result = test.obtenerGachamiga(8);
+        Assertions.assertEquals("8", result);
+    }
 }
